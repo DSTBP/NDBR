@@ -26,7 +26,7 @@
       Install
     </a>
     <span> | </span>
-    <a href="https://github.com/Your_User/Your_Repo/issues">
+    <a href="https://github.com/DSTBP/NDBR/issues">
       Report Bug
     </a>
   </h3>

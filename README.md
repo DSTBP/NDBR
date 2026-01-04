@@ -15,7 +15,6 @@
     <img src="https://img.shields.io/badge/Notion-3.1.23-blue.svg?style=flat-square" alt="notion">
     <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Mac%20%7C%20Linux-blue.svg?style=flat-square" alt="platform">
   </p>
-
   <div align="center">
     <h3>
       <a href="#-使用教程">
@@ -26,11 +25,12 @@
         安装地址
       </a>
       <span> | </span>
-      <a href="https://github.com/你的用户名/仓库名/issues">
+      <a href="https://github.com/DSTBP/NDBR/issues">
         提交Bug
       </a>
     </h3>
   </div>
+
 
   <div align="center">
     <strong>👉 一个强力、智能的 Notion 数据库内容批量替换工具 👈</strong><br>
