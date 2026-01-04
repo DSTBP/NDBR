@@ -7,6 +7,11 @@
 // @icon         https://github.com/DSTBP/NDBR/blob/main/favicon.png?raw=true
 // @match        https://www.notion.so/*
 // @grant        none
+// @license      MIT
+// @supportURL   https://github.com/DSTBP/NDBR/issues
+// @homepageURL  https://github.com/DSTBP/NDBR
+// @downloadURL  https://raw.githubusercontent.com/DSTBP/NDBR/main/Notion%20Database%20Batch%20Replace-1.0.0.user.js
+// @updateURL    https://raw.githubusercontent.com/DSTBP/NDBR/main/Notion%20Database%20Batch%20Replace-1.0.0.user.js
 // ==/UserScript==
 
 (function() {
