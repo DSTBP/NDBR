@@ -1,10 +1,8 @@
-- 
-
-- <p align="center">
-    <a href="https://github.com/DSTBP/NDBR" title="点击访问">
-      <img width="100" height="100" src="https://github.com/DSTBP/NDBR/blob/main/favicon.png?raw=true" alt="Notion 数据库批量替换助手">
-    </a>
-  </p>
+<p align="center">
+<a href="https://github.com/DSTBP/NDBR" title="点击访问">
+  <img width="100" height="100" src="https://github.com/DSTBP/NDBR/blob/main/favicon.png?raw=true" alt="Notion 数据库批量替换助手">
+</a>
+</p>
 
 
   <h1 align="center">Notion 数据库批量替换助手</h1>
