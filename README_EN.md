@@ -1,45 +1,121 @@
-# Notion Database Batch Replace
+<p align="center">
+  <a href="https://github.com/DSTBP/NDBR" title="点击访问">
+    <img width="100" height="100" src="https://github.com/DSTBP/NDBR/blob/main/favicon.png?raw=true" alt="Notion 数据库批量替换助手">
+  </a>
+</p>
 
-A powerful Tampermonkey script designed to perform deep "Find and Replace" operations across entire Notion databases. It overcomes Notion's **Virtual List** rendering limitations by automating a Z-pattern scroll (horizontal then vertical) to ensure every cell is processed.
 
-## 🌟 Key Features
+<h1 align="center">Notion Database Batch Replace</h1>
 
-- **Z-Scan Engine**: Automatically executes a "Scan Columns $\rightarrow$ Scroll Down $\rightarrow$ Repeat" logic to reach every hidden cell in large databases.
-- **Precision Targeting**: Bypass Notion's default "Row Selection" behavior. The script penetrates deep into the DOM to activate the specific cell editor.
-- **Anti-Hijacking Inputs**: Special event-handling allows you to use standard shortcuts (`Ctrl+A`, `Ctrl+C`, `Ctrl+V`) inside the script UI without triggering Notion's global commands.
-- **Interactive UI**:
-  - **Draggable**: Move the panel anywhere by dragging the header.
-  - **Collapsible**: Shrink the panel into a sleek, custom SVG icon to save space.
-  - **Smart Anchoring**: The panel expands to the left from the icon's position, staying perfectly aligned with the screen edge.
-- **Safety First**: Press **`ESC`** at any time to immediately abort the scanning and replacement process.
+<p align="center">
+  <img src="https://img.shields.io/badge/TamperMonkey-v5.0+-brightgreen.svg?style=flat-square" alt="tampermonkey">
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat-square" alt="LICENSE">
+  </a>
+  <img src="https://img.shields.io/badge/Notion-2026-blue.svg?style=flat-square" alt="notion">
+  <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Mac%20%7C%20Linux-blue.svg?style=flat-square" alt="platform">
+</p>
 
-## 🛠️ Installation
+<div align="center">
+  <h3>
+    <a href="#-usage-guide">
+      Instructions
+    </a>
+    <span> | </span>
+    <a href="#-installation">
+      Install
+    </a>
+    <span> | </span>
+    <a href="https://github.com/Your_User/Your_Repo/issues">
+      Report Bug
+    </a>
+  </h3>
+</div>
 
-1. **Install a Manager**: Install the [Tampermonkey](https://www.tampermonkey.net/) extension for your browser (Chrome, Edge, Safari, or Firefox).
-2. **Create Script**:
-   - Click the Tampermonkey icon and select "Create a new script".
-   - Delete the template code and paste the content of `Notion Database Batch Replace-1.0.0.user.js`.
-3. **Save**: Press `Ctrl + S` (or `Cmd + S` on Mac) to save.
-4. **Activate**: Navigate to any Notion database page; the custom blue icon will appear in the top-right area.
+<div align="center">
+  <strong>👉 A powerful, intelligent tool for batch replacement in Notion databases 👈</strong><br>
+  <sub>Automated Z-Scan traversing for Windows, macOS, and Linux</sub>
+</div>
+<br>
 
-## 🚀 How to Use
+[中文文档](README.md) | [English Docs](README_EN.md)
 
-1. **Open Database**: Go to the Notion Table view you wish to modify.
-2. **Expand UI**: Click the floating SVG icon to open the control panel.
-3. **Configure**:
-   - **Find**: Enter the text you want to replace.
-   - **Replace with**: Enter the new text.
-4. **Execute**: Click **"Start Auto Replace"**.
-   - The script will begin auto-scrolling. **Do not click the page** during this process to avoid interrupting the simulated clicks.
-   - To stop, click the red **"Stop"** button or hit the **`ESC`** key.
-5. **Done**: A summary will appear in the status log once the scan is complete.
+【Notion Database Batch Replace】 is an open-source Tampermonkey script designed to fix the lack of native batch find-and-replace in Notion. It automates human-like interaction with a Z-pattern scanning logic across all columns and pages.
 
-## ⚠️ Important Notes
 
-- **Backup Your Data**: Always **duplicate or back up your database** before running a batch replacement. Notion's "Page History" is a lifesaver, but prevention is better than cure.
-- **Supported Property Types**: This script works best with **Text**, **Number**, **URL**, **Email**, and **Phone** properties. It may not support "Relation," "Person," or "Date" properties as they use complex menu popups instead of standard text inputs.
-- **Performance**: For extremely large databases or slow internet connections, you may need to increase the `sleep` values in the code to allow Notion more time to render cells.
 
-## 📜 Changelog
+## 📖 Usage Guide
 
-- **v1.0.0**: Optimize the UI anchoring logic, fix the problem that the shortcut keys of the input box are hijacked by Notion, and introduce the Z-shaped automatic scrolling scanning engine.
+1. **Prerequisite**: Ensure Tampermonkey is installed.
+
+2. **Open Panel**: Click the floating icon on your Notion page to expand.
+
+3. **Configure**: Enter "Find" and "Replace with" values.
+
+4. **Execute**: Click "Start Auto Replace". The script will sweep horizontally and scroll vertically.
+
+5. **Abort**: Click the red "Stop" button or press **`ESC`**.
+
+   
+
+## 🔧 Features
+
+- ✅ **Z-Scan Engine**: Sweeps columns horizontally and scrolls pages vertically.
+
+- ✅ **Precision Targeting**: Penetrates deep cell editors to avoid row-selection bugs.
+
+- ✅ **Anti-Hijack UI**: Supports `Ctrl+A` / `Ctrl+V` inside UI inputs.
+
+- ✅ **Draggable UI**: Header-based dragging for panel positioning.
+
+- ✅ **Collapsible**: Shrinks into a draggable, custom SVG icon.
+
+  
+
+## 💽 Installation
+
+Ensure [Tampermonkey](https://www.tampermonkey.net/) is installed.
+
+### 1. Direct Install (Recommended)
+- **[Click here to install the latest version](Your_Install_Link.user.js)**
+
+### 2. Manual Installation
+1. Open Tampermonkey **Dashboard**.
+
+2. Click the **"+" (Add New Script)** button.
+
+3. Clear the default code in the editor.
+
+4. Copy and paste the entire content from `Notion Database Batch Replace-1.0.0.user.js`.
+
+5. Press `Ctrl + S` or click **"File" -> "Save"**.
+
+   
+
+## 🎨 Interface
+
+![](https://github.com/DSTBP/NDBR/blob/main/asserts/UI.png?raw=true)
+
+
+
+## ⚠️ Notes
+
+- **Data Backup**: Always **backup your database page** before running the script.
+
+- **Property Support**: Supports **Text, Number, URL, Email, Phone**. Complex properties like Relations or Dates are currently unsupported.
+
+- **Loading Speed**: For large databases, consider increasing the `sleep` timer in the source code.
+
+- **Keep Focused**: Keep the browser window in the foreground during the process.
+
+  
+
+## ⚖️ Disclaimer
+
+This tool is for educational and personal productivity use only. Users assume full responsibility for any data changes (including errors or losses) resulting from the use of this script. The developer is not liable for any losses incurred.
+
+
+
+## 📝 Changelog
+
+- **v1.0.0**: Optimized UI anchoring, fixed input shortcut hijacking, and introduced the Z-Scan automated scrolling engine.
