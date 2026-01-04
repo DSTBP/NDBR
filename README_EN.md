@@ -96,7 +96,9 @@ Ensure [Tampermonkey](https://www.tampermonkey.net/) is installed.
 
 ![](https://github.com/DSTBP/NDBR/blob/main/asserts/UI.png?raw=true)
 
+**Demonstration animation**
 
+  ![](https://github.com/DSTBP/NDBR/blob/main/asserts/Demonstration.gif?raw=true)
 
 ## ⚠️ Notes
 

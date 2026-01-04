@@ -96,7 +96,9 @@
 
   ![](https://github.com/DSTBP/NDBR/blob/main/asserts/UI.png?raw=true)
 
-  
+**演示动画**
+
+  ![](https://github.com/DSTBP/NDBR/blob/main/asserts/Demonstration.gif?raw=true)
 
   ## ⚠️ 注意事项
 
