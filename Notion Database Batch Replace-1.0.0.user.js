@@ -49,7 +49,7 @@
         container.style.cssText = UI_STYLE;
         container.innerHTML = `
             <div id="n-header" style="background:#f7f7f5; padding:10px 16px; border-bottom:1px solid #eee; display:flex; justify-content:space-between; align-items:center; cursor:move; user-select:none;">
-                <span style="font-weight:bold; font-size:13px; color:#333;">Notion 批量替换 v6.7</span>
+                <span style="font-weight:bold; font-size:13px; color:#333;">Notion 批量替换</span>
                 <span id="n-min" style="cursor:pointer; font-size:20px; color:#888; line-height:1;">&times;</span>
             </div>
             <div id="n-body" style="padding:16px;">
