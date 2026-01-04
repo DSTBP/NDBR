@@ -77,7 +77,7 @@
   请确保已先安装 [Tampermonkey](https://www.tampermonkey.net/) 脚本管理器。
 
   ### 1. 直接安装（推荐）
-  - **[点击此处安装最新版本脚本](你的安装地址.user.js)**
+  - **[点击此处安装最新版本脚本](https://greasyfork.org/zh-CN/scripts/561380-notion-database-batch-replace/post-install)**
 
   ### 2. 手动安装步骤
   1. 打开 Tampermonkey **管理面板**。
