@@ -77,7 +77,7 @@
 Ensure [Tampermonkey](https://www.tampermonkey.net/) is installed.
 
 ### 1. Direct Install (Recommended)
-- **[Click here to install the latest version](https://greasyfork.org/zh-CN/scripts/561380-notion-database-batch-replace/post-install)**
+- **[Click here to install the latest version](https://greasyfork.org/zh-CN/scripts/561380-notion-database-batch-replace)**
 
 ### 2. Manual Installation
 1. Open Tampermonkey **Dashboard**.
