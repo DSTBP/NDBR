@@ -4,7 +4,7 @@
 // @version      1.0.0
 // @description  全库Z字扫描
 // @author       DSTBP
-// @icon         https://tooltopia.dstbp.net/favicon.png
+// @icon         https://github.com/DSTBP/NDBR/blob/main/favicon.png?raw=true
 // @match        https://www.notion.so/*
 // @grant        none
 // ==/UserScript==
