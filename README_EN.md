@@ -12,7 +12,7 @@
   <a href="LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat-square" alt="LICENSE">
   </a>
-  <img src="https://img.shields.io/badge/Notion-2026-blue.svg?style=flat-square" alt="notion">
+  <img src="https://img.shields.io/badge/Notion-3.1.23-blue.svg?style=flat-square" alt="notion">
   <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Mac%20%7C%20Linux-blue.svg?style=flat-square" alt="platform">
 </p>
 
