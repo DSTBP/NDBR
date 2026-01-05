@@ -86,7 +86,7 @@ Ensure [Tampermonkey](https://www.tampermonkey.net/) is installed.
 
 3. Clear the default code in the editor.
 
-4. Copy and paste the entire content from `Notion Database Batch Replace-1.0.0.user.js`.
+4. Copy and paste the entire content from `Notion Database Batch Replace.user.js`.
 
 5. Press `Ctrl + S` or click **"File" -> "Save"**.
 
@@ -120,4 +120,5 @@ This tool is for educational and personal productivity use only. Users assume fu
 
 ## 📝 Changelog
 
-- **v1.0.0**: Optimized UI anchoring, fixed input shortcut hijacking, and introduced the Z-Scan automated scrolling engine.
+- **v1.0.0**: Optimized UI anchoring, and introduced the Z-Scan automated scrolling engine.
+- **v1.0.1**：Fixed input shortcut hijacking.
